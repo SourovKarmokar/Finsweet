@@ -213,4 +213,34 @@ a{
 #view .text_top a span{
     margin-left: 10px;
 }
+#view .view_left {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+#view .view_left .show {
+    padding-top: 312px;
+    padding-bottom: 76px;
+    padding-left: 48px;
+    padding-right: 35px;
+    width: 396px;
+    border-color: rgba(28 , 30 , 83 , 0.7);
+    position: absolute;
+    top: 0;
+    left: -400px;
+}
+#view .view_left:hover .show{
+    left: 0;
+}
+#view .view_left .show h2{
+    font-family: "Poppins", serif;
+    font-style: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #fffff;
+    width: 313px;
+}
+
+
 /* VIEW CSS PART END */
