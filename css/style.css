@@ -307,3 +307,30 @@ a{
     margin-left: 10px;
   }
 /* VIEW CSS PART END */
+
+/* DESIGN PART START */
+#design{
+    padding: 128px 0;
+    background-color: #f4f6fc;
+
+}
+#design .text_top p{
+    font-family: "Poppins", serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #282938;
+  text-align: center;
+}
+#design .text_top h2{
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #282938;
+    width: 630px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 47px;
+}
+/* DESIGN PART END */
