@@ -271,16 +271,39 @@ a{
 #view .view_right:hover .right_show {
     left: 0;
 }
-#view .view_right .right_show {
+.right_show {
     position: absolute;
     top: 0;
     left: -421px;
     width: 100%;
     height: 100%;
-    background-color: rgba(28 , 30 , 83 , 0.7);
+    background-color: rgba(28, 30, 83, 0.7);
     padding-top: 129px;
     padding-left: 56px;
+    /* opacity: 0; */
     transition: all linear 0.5s;
-}
-
+  }
+  
+  .right_show h2 {
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #ffffff;
+    width: 313px;
+  }
+  .right_show h2 span {
+    display: block;
+  }
+  
+  .right_show a {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #fcd980;
+  }
+  .right_show a span {
+    margin-left: 10px;
+  }
 /* VIEW CSS PART END */
