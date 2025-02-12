@@ -333,4 +333,27 @@ a{
     text-align: center;
     margin-bottom: 47px;
 }
+#design .design_left{
+    background-color: #ffff;
+    padding: 58px 33px 48px 48px;
+}
+#design .design_left h2{
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #282938;
+    margin-top: 22px;
+    margin-bottom: 12px;
+
+}
+#design .design_left p {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.7);
+    width: 324px;
+  }
+
 /* DESIGN PART END */
