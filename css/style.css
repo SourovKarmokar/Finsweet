@@ -381,4 +381,87 @@ a{
   margin-top: 16px;
 
 }
+
+#client .client_main .client_right h5{
+    font-family: "Poppins", serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #282938;
+    width: 843px;
+    margin-bottom: 48px;
+
+}
+
+#client .client_main .client_right .man .imgdiv{
+    width: 52px;
+    height: 52px;
+    margin-right: 50%;
+    margin-right: 15px;
+}
+#client .client_main .client_right .man .imgdiv img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#client .client_main .client_right .name h2 {
+    font-family: "Poppins", serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #282938;
+
+}
+#client .client_main .client_right .name h3{
+    font-family: "Poppins", serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #282938;
+}
+
+
+
+.carousel-control-next {
+    width: 48px;
+    height: 48px;
+    background-color: #5239FA;
+    border-radius: 50%;
+    opacity: 1;
+    top: 200px;
+    right: 0;
+}
+.carousel-control-prev {
+    width: 48px;
+    height: 48px;
+    background-color: #5239FA;
+    border-radius: 50%;
+    opacity: 1;
+    top: 200px;
+    left: 747px;
+}
+.carousel-control-next-icon {
+    background-image: url("../images/rightangle.png");
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url("../images/leftangle.png");
+  }
+  
+  .carousel-control-next:focus,
+  .carousel-control-next:hover,
+  .carousel-control-prev:focus,
+  .carousel-control-prev:hover {
+    background-color: #5239fa;
+  }
+  
+  .carousel-control-next:focus,
+  .carousel-control-next:hover .carousel-control-next-icon {
+    background-image: url("../image/rightangle.png");
+  }
+  .carousel-control-prev:focus,
+  .carousel-control-prev:hover .carousel-control-prev-icon {
+    background-image: url("../image/leftangle.png");
+  }
 /* CLIENT PART END */
