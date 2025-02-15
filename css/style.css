@@ -465,3 +465,44 @@ a{
     background-image: url("../image/leftangle.png");
   }
 /* CLIENT PART END */
+
+/* FAQ PART START */
+#faq{
+    padding: 128px 0;
+}
+#faq .faq_left h2 {
+    font-family: "Poppins", serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #282938;
+  }
+  #faq .faq_left a {
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(36, 5, 242, 0.87);
+    margin-top: 16px;
+  }
+  #faq .faq_left h2 span {
+    display: block;
+  }
+  .accordion-button {
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #282938;
+  }
+  
+  .accordion-body {
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(40, 41, 56, 0.87);
+    width: 624px;
+    margin-left: 84px;
+  }  
+/* FAQ PART END */
